@@ -2,95 +2,272 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Chess Royal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chess Royal - Professional Chess Strategy Game</title>
+    
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
-    <style>
-        body {
-            background: #1C2739;
-            color: #1C2739;
-            font-family: 'Parkinsans', sans-serif;
-        }
-        .container {
-            max-width: 800px;
-            background: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.865);
-            margin-top: 30px;
-        }
-        h1 {
-            text-align: center;
-            font-weight: bold;
-            margin-bottom: 20px;
-            color: #1C2739;
-        }
-        h2 {
-            font-weight: bold;
-            margin-top: 20px;
-            margin-bottom: 10px;
-            padding-bottom: 5px;
-            color: #1C2739;
-        }
-        ul {
-            padding-left: 20px;
-            margin-bottom: 20px;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-        .contact-info {
-            margin-top: 20px;
-        }
-    </style>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Privacy Policy</h1>
-        <p><strong>Effective Date:</strong> 9 February 2025</p>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="Images/logo.png" alt="Chess Royal Logo" width="50" height="50" class="d-inline-block align-text-top me-2">
+                Chess Royal
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">
+                            <i class="fas fa-chess me-2"></i>Features
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gameplay">
+                            <i class="fas fa-gamepad me-2"></i>Gameplay
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-info-circle me-2"></i>More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a class="dropdown-item" href="terms-conditions.html">Terms & Conditions</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5 mt-5">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 text-center order-lg-1">
+                    <h1 class="display-4 fw-bold mb-3 text-shadow">Chess Royal</h1>
+                    <h2 class="h4 text-accent mb-3 text-shadow">Classic Chess, Modern Features</h2>
+                    <p class="lead mb-4 text-shadow">Experience the ultimate chess battle! Play with friends or challenge AI. New features & updates coming soon—download now and rule the board!</p>
+                    
+                    <div class="cta-buttons mb-4">
+                        <a href="https://apps.apple.com/us/app/chess-royal/id6741212883" 
+                           target="_blank" 
+                           class="btn btn-light btn-lg download-btn w-100 max-width-400 mx-auto">
+                            <i class="fab fa-apple me-3 fa-lg"></i>Download on App Store
+                        </a>
+                    </div>
+
         
-        <h2>1. Introduction</h2>
-        <p>Welcome to <strong>Chess Royal Powered by Siyaram Infotech</strong>. We are committed to protecting your privacy and ensuring that your personal information is handled securely and responsibly.</p>
-        
-        <h2>2. Information We Collect</h2>
-        <ul>
-            <li><strong>Personal Information:</strong> Name, email, and other identifiers when you create an account.</li>
-            <li><strong>Usage Data:</strong> Information about your gameplay and interactions.</li>
-            <li><strong>Device Information:</strong> Device type, OS, and unique device identifiers.</li>
-            <li><strong>Log Data:</strong> IP address, app version, and crash reports.</li>
-        </ul>
-        
-        <h2>3. How We Use Your Information</h2>
-        <ul>
-            <li>Enhance gameplay experience.</li>
-            <li>Monitor performance and fix bugs.</li>
-            <li>Customize in-game content.</li>
-            <li>Ensure security and prevent fraud.</li>
-            <li>Comply with legal obligations.</li>
-        </ul>
-        
-        <h2>4. Third-Party Services</h2>
-        <p>We use third-party services such as analytics tools and advertising networks. These third parties have their own privacy policies.</p>
-        
-        <h2>5. Data Security</h2>
-        <p>We use advanced security measures, but no system is 100% secure.</p>
-        
-        <h2>6. Children's Privacy</h2>
-        <p>Our game is not intended for children under 13. If we collect such data, we will delete it.</p>
-        
-        <h2>7. Your Rights</h2>
-        <p>You may have rights to access, correct, delete, or limit your data. Contact us for privacy-related requests.</p>
-        
-        <h2>8. Changes to This Policy</h2>
-        <p>We may update this Privacy Policy periodically.</p>
-        
-        <h2>9. Contact Us</h2>
-        <p class="contact-info"><strong>Siyaram Infotech</strong><br>Infotechsiyaram@gmail.com<br>www.siyaraminfotch.store</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Game Features</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-chess-knight"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Smart AI Opponents</h3>
+                            <p class="card-text">Intelligent chess AI that learns and adapts to your unique playing style, providing a challenging and dynamic game every time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Global Multiplayer</h3>
+                            <p class="card-text">Connect with chess players worldwide. Compete in real-time matches, join tournaments, and climb global leaderboards.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Custom Experience</h3>
+                            <p class="card-text">Personalize your chess journey with unique board themes, piece designs, and color schemes that reflect your style.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gameplay Section -->
+    <section id="gameplay" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Immersive Gameplay</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="mb-4">Intelligent Gameplay</h2>
+                    <p class="lead">Experience chess like never before with our advanced AI opponents. Each match is a unique challenge that adapts to your skill level.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <i class="fas fa-brain text-primary me-3"></i>Adaptive AI Difficulty
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-chart-line text-primary me-3"></i>Real-time Skill Assessment
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-chess-knight text-primary me-3"></i>Multiple Opponent Strategies
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customization Section -->
+    <section id="customization" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Personalize Your Chess Experience</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-chess-board fa-3x text-primary mb-3"></i>
+                            <h3 class="card-title">Board Themes</h3>
+                            <p class="card-text">Choose from a variety of board designs, from classic wooden to modern minimalist styles.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-chess-queen fa-3x text-primary mb-3"></i>
+                            <h3 class="card-title">Piece Styles</h3>
+                            <p class="card-text">Customize your chess pieces with unique designs from around the world.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-paint-brush fa-3x text-primary mb-3"></i>
+                            <h3 class="card-title">Color Schemes</h3>
+                            <p class="card-text">Personalize your game with custom color palettes that reflect your style.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">What Players Say</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <p class="fst-italic">"The most sophisticated chess app I've ever played. The AI is incredibly challenging!"</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="Images/Ellipse 61.png" class="rounded-circle me-3" width="50" height="50" alt="Player Avatar">
+                                <div>
+                                    <h5 class="mb-0">Alex Thompson</h5>
+                                    <small class="text-muted">Professional Chess Player</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <p class="fst-italic">"Love the customization options. Makes every game feel personal and unique."</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="Images/Ellipse 35.png" class="rounded-circle me-3" width="50" height="50" alt="Player Avatar">
+                                <div>
+                                    <h5 class="mb-0">Sarah Chen</h5>
+                                    <small class="text-muted">Chess Enthusiast</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <p class="fst-italic">"The multiplayer mode is seamless. Great way to connect with chess lovers worldwide."</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="Images/Ellipse 34.png" class="rounded-circle me-3" width="50" height="50" alt="Player Avatar">
+                                <div>
+                                    <h5 class="mb-0">Michael Rodriguez</h5>
+                                    <small class="text-muted">Online Gamer</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <div class="social-icons mb-3">
+                <a href="https://twitter.com/chessroyal" target="_blank" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                <a href="https://facebook.com/chessroyal" target="_blank" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com/chessroyal" target="_blank" class="text-white"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="legal-links mb-3">
+                <a href="privacy-policy.html" class="text-white me-3">Privacy Policy</a>
+                <a href="terms-conditions.html" class="text-white">Terms & Conditions</a>
+            </div>
+            <p class="mt-3 mb-0">&copy; 2025 Chess Royal. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Game Info Modal -->
+    <div class="modal fade" id="gameInfoModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About Chess Royal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Chess Royal is a professional-grade chess strategy game designed for chess enthusiasts of all levels.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#features" class="btn btn-primary" data-bs-dismiss="modal">Explore Features</a>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- Bootstrap JS and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
 </body>
 </html>
-
